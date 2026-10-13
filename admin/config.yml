@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: pretty-boi-jeisheesh/nslpclothing
+  branch: main   # change this to "master" if that's your repo's default branch
+
+# Where uploaded photos get stored, and how the site links to them
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Shop Products"
+    files:
+      - name: "products"
+        label: "Products"
+        file: "data/products.json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — ₱{{fields.price}}"
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "number"
+                value_type: "int"
+                hint: "Must be a unique number — don't reuse an existing product's ID"
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Price (₱)", name: "price", widget: "number"}
+              - {label: "Default Photo", name: "image", widget: "image", required: false}
+              - {label: "Stock Left", name: "stock", widget: "number", value_type: "int", min: 0, required: false, hint: "How many pieces are left. Leave blank if you don't want to track stock. At 0 the product automatically shows SOLD OUT. Shows 'ONLY X LEFT' when 5 or fewer."}
+              - {label: "Sold Out?", name: "sold_out", widget: "boolean", default: false, required: false, hint: "Manual override: tick to show SOLD OUT and disable ordering, even if stock is above 0. The product stays visible on the site."}
+              - label: "Color / Style Variants"
+                name: "variants"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                hint: "Add one entry per color or style. Leave empty if this product has no variants."
+                fields:
+                  - {label: "Variant Name (e.g. Black, Olive, Cream)", name: "label", widget: "string"}
+                  - {label: "Swatch Color", name: "color", widget: "color", required: false, hint: "The little colored dot shown on the site"}
+                  - {label: "Photo for this variant", name: "image", widget: "image", required: false, hint: "Leave blank to use the Default Photo above"}

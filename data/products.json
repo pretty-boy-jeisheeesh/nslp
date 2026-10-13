@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "F1-BLACK",
+      "description": "F1 – BLACK embodies speed, precision, and quiet confidence. Inspired by the relentless pursuit of performance, this piece is made for those who stay focused, move with purpose, and never settle for average. The deep black color symbolizes strength, versatility, and a timeless style that fits every occasion.\n\nDesigned with a clean, modern aesthetic, F1 – BLACK isn't about chasing attention it's about making a statement through simplicity. Whether you're on the streets, at work, or out with friends, this shirt is built to match your pace and mindset.",
+      "price": 600,
+      "image": "/images/uploads/f1-black.png",
+      "sold_out": true
+    },
+    {
+      "id": 2,
+      "name": "F1 - WHITE",
+      "description": "F1 – WHITE is a symbol of clean beginnings, effortless confidence, and timeless style. Inspired by the spirit of moving forward without distractions, this piece reflects a mindset focused on progress, discipline, and simplicity. The crisp white finish represents clarity, while the minimalist design keeps the attention on the attitude behind the wearer.\n\nVersatile and easy to pair with any outfit, F1 – WHITE is built for everyday wear whether you're chasing goals, creating your own path, or simply embracing a clean aesthetic. It's a staple designed to remain relevant beyond trends.",
+      "price": 600,
+      "image": "/images/uploads/f1-white.png",
+      "sold_out": true
+    },
+    {
+      "id": 3,
+      "name": "FLIGHT TEE",
+      "description": "FLIGHT TEE is inspired by the freedom of birds moving without limits, adapting to every direction, and rising above every challenge. This design represents the mindset of pushing forward every single day, no matter where life takes you. Every flight begins with a choice to move, explore, and keep growing.\n\nFeaturing a bird-inspired graphic, FLIGHT TEE blends freedom with determination, reminding the wearer that progress isn't about speed it's about consistently moving toward your goals. Designed for everyday comfort and effortless style, this piece reflects the spirit of those who refuse to stay grounded.",
+      "price": 600,
+      "image": "/images/uploads/flightstee-black.png"
+    },
+    {
+      "id": 4,
+      "name": "HIGHLAND GREEN",
+      "description": "HIGHLAND is inspired by the calm strength of nature and the quiet confidence found in higher ground. Drawing from the rich green landscapes of the highlands, this piece represents growth, resilience, and the courage to keep climbing no matter how steep the path becomes. It's a reminder that the best views come after the hardest journeys.\n\nDesigned with a timeless, earthy tone, HIGHLAND brings together comfort and versatility, making it a staple for everyday wear. Whether you're exploring the outdoors or navigating the pace of city life, this color reflects a mindset rooted in balance, determination, and authenticity.",
+      "price": 600,
+      "image": "/images/uploads/highland-green.png"
+    },
+    {
+      "id": 5,
+      "name": "HRTBREAKSZN",
+      "description": "HRTBREAKSZN captures the chapter where pain becomes purpose. Inspired by the emotions that come with heartbreak, this piece isn't about dwelling on the past—it's about embracing growth, resilience, and the strength to move forward. Every scar tells a story, and every ending creates space for a new beginning.\n\nDesigned with a bold streetwear attitude, HRTBREAKSZN speaks to those who have faced disappointment but refused to let it define them. It's a reminder that even during your hardest season, you can come back stronger, wiser, and more confident than before.",
+      "price": 600,
+      "image": "/images/uploads/hrtbreakszn-black.png"
+    },
+    {
+      "id": 6,
+      "name": "LOWLIFE – BLACK",
+      "description": "LOWLIFE – BLACK is a tribute to those who started from the bottom and built themselves through grit, resilience, and relentless ambition. The name reflects embracing your roots without letting them define your future. It's about proving that your circumstances don't determine your destination your mindset does.\n\nWrapped in a timeless black colorway, this piece represents strength, loyalty, and quiet confidence. Its clean yet bold aesthetic is made for individuals who move with purpose, stay authentic, and let their actions speak louder than words.",
+      "price": 600,
+      "image": "/images/uploads/lowlife-black.png"
+    },
+    {
+      "id": 7,
+      "name": "LOWLIFE – WHITE",
+      "description": "LOWLIFE – WHITE represents a fresh perspective on resilience. Inspired by those who have faced challenges yet continue to move forward, this piece symbolizes growth, self-belief, and the courage to redefine your own story. It's a reminder that where you begin never limits where you can go.\n\nThe clean white colorway reflects clarity, renewal, and confidence, balancing the bold identity of the LOWLIFE collection with a lighter, more refined aesthetic. Designed for everyday wear, it pairs minimalist style with a message of perseverance and authenticity.",
+      "price": 600,
+      "image": "/images/uploads/lowlife-white.png"
+    },
+    {
+      "name": "PRIDE TEE ",
+      "id": 8,
+      "description": "PRIDE TEE explores the weight of pride through the image of a man falling a powerful symbol that even the strongest can stumble. The design serves as a reminder that growth often begins the moment we let go of our ego, accept our setbacks, and find the strength to rise again. Falling isn't failure; it's part of becoming stronger.\n\nThe black colorway amplifies the design's bold and reflective message, representing resilience, determination, and the courage to face life's hardest moments. With its minimalist streetwear aesthetic, PRIDE TEE transforms a striking visual into a story of perseverance and self-discovery.",
+      "price": 600,
+      "image": "/images/uploads/pridetee-black.png"
+    },
+    {
+      "id": 9,
+      "name": "SOCIAL INTROVERT – BLACK",
+      "description": "SOCIAL INTROVERT – BLACK represents those who move quietly but with purpose. The front graphic symbolizes the distractions of everyday life, while the back design of the world and butterflies reflects growth, freedom, and personal transformation. It's a reminder to stay true to yourself despite the noise around you.\n\nDesigned with a clean streetwear aesthetic, this piece blends bold visuals with a meaningful message, making it perfect for everyday wear.",
+      "price": 600,
+      "image": "/images/uploads/socialintro-black.png"
+    },
+    {
+      "id": 10,
+      "name": "SOCIAL INTROVERT – GREEN",
+      "description": "SOCIAL INTROVERT – GREEN is made for those who stay calm, think deeply, and grow at their own pace. The front graphic represents the distractions of everyday life, while the back design featuring the world and butterflies symbolizes growth, freedom, and embracing change.\n\nFinished in a rich green colorway, this piece combines a clean streetwear look with a message of staying grounded and evolving through every stage of life.",
+      "price": 600,
+      "image": "/images/uploads/socialintro-green.png"
+    }
+  ]
+}
